@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>An Lành – Nông sản sạch Núi Thành</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #4caf50;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6") center/cover no-repeat;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 36px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card .content {
+      padding: 15px;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #4caf50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    footer {
+      background: #2e7d32;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>An Lành</h1>
+  <nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#products">Sản phẩm</a>
+    <a href="#journey">Hành trình An Lành</a>
+    <a href="#blog">Blog</a>
+    <a href="#b2b">Đối tác</a>
+    <a href="#trace">Truy xuất</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>Từ Núi Thành đến bàn ăn Đà Nẵng</h2>
+  <p>Nông sản sạch – Minh bạch nguồn gốc – Đồng hành cùng nông dân</p>
+  <a class="btn" href="#products">Xem sản phẩm</a>
+</section>
+
+<section id="products">
+  <h2>Sản phẩm tiêu biểu</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce" />
+      <div class="content">
+        <h3>Rau củ Núi Thành</h3>
+        <p>Canh tác tự nhiên, không hóa chất.</p>
+        <p><strong>Hộ cung cấp:</strong> Gia đình ông Nguyễn Văn A</p>
+        <a class="btn" href="#">Thêm vào giỏ</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBbss7Spy_p6-MZH8DB_gqjGWZRZZwA1YUivpkCvfeYhXLsaUZGydMNyPd1OwGTbkI-frHP2Ha2O-ZroWV6nm0xJ6kF9vt4xSHIPDLVJ3LT2j_X0gABGzZsZns6Gpg39wxceg6qBx2QCsh/s1600/daurung_01.jpg" />
+      <div class="content">
+        <h3>Trái cây đặc sản</h3>
+        <p>Thu hoạch đúng mùa, vị ngọt tự nhiên.</p>
+        <p><strong>Hộ cung cấp:</strong> HTX Núi Thành</p>
+        <a class="btn" href="#">Thêm vào giỏ</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1604909052743-94e838986d24" />
+      <div class="content">
+        <h3>Hải sản sạch</h3>
+        <p>Đánh bắt trong ngày, bảo quản lạnh.</p>
+        <p><strong>Cơ sở:</strong> Ngư dân Tam Quang</p>
+        <a class="btn" href="#">Thêm vào giỏ</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="journey">
+  <h2>Hành trình An Lành</h2>
+  <p>An Lành được sinh ra từ mong muốn kết nối nông dân Núi Thành với người tiêu dùng thành thị. Mỗi sản phẩm đều được kiểm soát từ khâu canh tác, thu hoạch đến vận chuyển.</p>
+</section>
+
+<section id="blog">
+  <h2>Blog Ăn Lành Sống Khỏe</h2>
+  <ul>
+    <li>Cách nấu bữa cơm lành mạnh từ rau Núi Thành</li>
+    <li>Lợi ích dinh dưỡng của thực phẩm theo mùa</li>
+    <li>Nông nghiệp sạch là gì?</li>
+  </ul>
+</section>
+
+<section id="b2b">
+  <h2>Dành cho Đối tác (B2B)</h2>
+  <p>Chính sách giá sỉ hấp dẫn cho nhà hàng, cửa hàng thực phẩm sạch.</p>
+  <form>
+    <input type="text" placeholder="Tên đơn vị" />
+    <input type="text" placeholder="Người liên hệ" />
+    <input type="email" placeholder="Email" />
+    <textarea placeholder="Nhu cầu hợp tác"></textarea>
+    <button class="btn" type="submit">Gửi đăng ký</button>
+  </form>
+</section>
+
+<section id="trace">
+  <h2>Truy xuất nguồn gốc</h2>
+  <p>Nhập mã QR hoặc mã lô hàng:</p>
+  <input type="text" placeholder="VD: AL-NT-0125" />
+  <a class="btn" href="#">Tra cứu</a>
+</section>
+
+<footer>
+  <p>© 2026 An Lành – Nông sản sạch Núi Thành</p>
+</footer>
+
+</body>
+</html>
